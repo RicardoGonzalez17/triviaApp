@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TriviaApp</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row title">
+            <div class="col-md-1">
+                <h2 class="text-center text-info" id="headnumber">
+                    #1
+                </h2>
+            </div>
+            <div class="col-md-11">
+                <h2 class="text-center text-info" id="question">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, molestiae id. Iusto incidunt minus
+                    eos similique officia neque, adipisci quisquam labore commodi a et qui deserunt tempora.
+                    Perspiciatis, facere at!
+                </h2>
+            </div>
+        </div>
+        <div class="row pb-3">
+            <div class="col-md-1">
+                <input class="form-check-input h-100 w-100" type="radio" name="flexRadioDefault" id="option1">
+            </div>
+            <div class="col-md-11">
+                <label class="form-check-label " for="option1">
+                    Default checked radio
+                </label>  
+            </div>
+        </div>
+        <div class="row pb-3">
+            <div class="col-md-1">
+                <input class="form-check-input h-100 w-100" type="radio" name="flexRadioDefault" id="option2">
+            </div>
+            <div class="col-md-11">
+                <label class="form-check-label " for="option2">
+                    Default checked radio
+                </label>  
+            </div>
+        </div>
+        <div class="row pb-3">
+            <div class="col-md-1">
+                <input class="form-check-input h-100 w-100" type="radio" name="flexRadioDefault" id="option3">
+            </div>
+            <div class="col-md-11">
+                <label class="form-check-label " for="option3">
+                    Default checked radio
+                </label>  
+            </div>
+        </div>
+        <div class="row pb-3">
+                    <div class="col-md-1">
+                        <input class="form-check-input h-100 w-100" type="radio" name="flexRadioDefault" id="option4">
+                    </div>
+                    <div class="col-md-11">
+                        <label class="form-check-label" for="option4">
+                            Default checked radio
+                        </label>  
+                    </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-md-12 d-flex justify-content-center">
+                <button type="button" id="btnNext" class="btn pl-5 pr-5 btn-lg btn-outline-primary">
+                    NEXT
+                </button>
+            </div>
+        </div>
+        <!-- <div class="row pt-5">
+            <div class="col-md-12">
+                <div class="alert alert-warning alert-dismissible fade show" id="inputAlert" role="alert">
+                    <strong id="alertStrong">To Select</strong> a option if you want to continue.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+            </div>
+        </div> -->
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/multiplechoice.js"></script>
+    <script>
+        // Aquí colocas el código JavaScript para bloquear el retroceso del navegador
+        // como se proporcionó en la respuesta anterior
+        history.pushState(null, null, location.href);
+        window.addEventListener('popstate', function(event) {
+          history.pushState(null, null, location.href);
+        });
+      </script>
+
+</body>
+
+</html>

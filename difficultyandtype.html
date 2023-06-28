@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TriviaApp - Last step</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="row title">
+            <div class="col-md-1">
+                <img src="./img/izquierda.png" id="back" alt="Back" class="w-75">
+            </div>
+            <div class="col-md-11 d-flex justify-content-center align-items-center">
+                <h3 class="text-center">
+                    Select difficult and type
+                </h3>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center mb-4 w-50">
+                    <img class="img-fluid" alt="Bootstrap Image Preview" src="./img/star.png" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <input type="radio" id="easy" name="difficulty" value="Easy" placeholder="Easy">
+                    <label for="html">Easy</label><br>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center mb-4 w-50">
+                    <img class="img-fluid" alt="Bootstrap Image Preview" src="./img/two-stars.png" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <input type="radio" id="medium" name="difficulty" value="Medium" placeholder="Medium">
+                    <label for="html">Medium</label><br>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center mb-4 w-50">
+                    <img class="img-fluid" alt="Bootstrap Image Preview" src="./img/stars.png"/>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <input type="radio" id="hard" name="difficulty" value="Hard" placeholder="Hard">
+                    <label for="html">Hard</label><br>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center mb-4 w-25">
+                    <img class="img-fluid" alt="Bootstrap Image Preview" src="./img/multiple.png" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <input type="radio" id="multiple" name="type" value="Multiple" placeholder="Multiple Choice">
+                    <label for="html">Multiple Choice</label><br>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <div class="d-flex justify-content-center align-items-center mb-4 w-25">
+                    <img class="img-fluid" alt="Bootstrap Image Preview" src="./img/true-or-false.png" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    <input type="radio" id="truefalse" name="type" value="boolean" placeholder="True or False">
+                    <label for="html">True / False</label><br>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-md-12 d-flex justify-content-center">
+                <button type="button" id="btnStarTrivia" class="btn pl-5 pr-5 btn-lg btn-outline-primary">
+                    START
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
